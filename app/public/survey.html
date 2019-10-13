@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../public/index.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <title>Friend Finder</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron mt-4">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                <h1 class="text-center">About Me</h1>
+                <h5 class="text-center">First, provide your name, email and a picture of yourself. Then answer the survey questions, and we will find some super cool friends for you!</h5>
+                </div>
+            </div>
+        <hr>
+        <form>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-6">
+                    <label for="name">Full Name</label>
+                    <input type="text" class="form-control" id="fullName" placeholder="Your Name Here">
+                    <br>
+                    <label for="email">Email Address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email Here">
+                    <br>
+                    </div>
+                    <div class="col-md-4 mt-auto">
+                    <div class="custom-file">
+                        <label for="image">Selfie!</label>
+                        <input type="file" class="custom-file-input" id="validatedCustomFile" required>
+                        <label class="custom-file-label" for="validatedCustomFile">Insert Picture Here</label>
+                    </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-8 mx-auto">
+                        <h1 class="text-center">Compatability Survey</h1>
+                        <h5 class="text-center">Rate how much you agree with each statement by choosing a number 1-5. (1 = totally disagree. 5 = Couldn't agree more.)</h5>
+                        <br>
+                        <ol>
+                            <li>I would like to be swarmed by many warm, cuddly puppies.</li>
+                            <br>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Disagree Completely</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Disagree</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Neutral</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Agree</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Completely Agree</label>
+                            </div>
+                            <br>
+                            <li>I would like for a cat to sit on my lap... or not, whatever the cat wants to do.</li>
+                            <br>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Disagree Completely</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Disagree</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Neutral</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Agree</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Completely Agree</label>
+                            </div>
+                            <br>
+                            <li>I like hiking and being outdoors.</li>
+                            <br>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Disagree Completely</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Disagree</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Neutral</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Agree</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Completely Agree</label>
+                            </div>
+                            <br>
+                            <li>I like to Netflix and chill.</li>
+                            <br>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Disagree Completely</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Disagree</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Neutral</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Agree</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Completely Agree</label>
+                            </div>
+                            <br>
+                            <li>I like to make plans when I go on vacation.</li>
+                            <br>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Disagree Completely</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Disagree</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Neutral</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Agree</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Completely Agree</label>
+                            </div>
+                            <br>
+                            <li>I like unexpected adventures.</li>
+                            <br>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Disagree Completely</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Disagree</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Neutral</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Agree</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Completely Agree</label>
+                            </div>
+                            <br>
+                            <li>I like cooking.</li>
+                            <br>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Disagree Completely</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Disagree</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Neutral</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Agree</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Completely Agree</label>
+                            </div>
+                            <br>
+                            <li>I like reading books.</li>
+                            <br>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Disagree Completely</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Disagree</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Neutral</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Agree</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Completely Agree</label>
+                            </div>
+                            <br>
+                            <li>I like to go to parties.</li>
+                            <br>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Disagree Completely</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Disagree</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Neutral</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Agree</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Completely Agree</label>
+                            </div>
+                            <br>
+                            <li>Sometimes, I get nervous on airplanes.</li>
+                            <br>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Disagree Completely</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Disagree</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Neutral</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Agree</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Completely Agree</label>
+                            </div>
+                            
+                        </ol>
+                    </div>
+                </div>
+                <br>
+                <hr>
+                <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-6 mx-auto">
+                <button class="btn btn-outline-dark btn-lg mx-auto" type="button">Submit</button>
+                </div>
+                </div>
+            </div>
+        </form>
+        </div>
+      <footer class="pt-4">
+        <div class="mx-auto pt-4" style="width: 200px;">
+          <a href="https://github.com/bgoudy?tab=repositories">Brendan's Github</a>
+        </div>
+      </footer>
+    </div>
+</body>
